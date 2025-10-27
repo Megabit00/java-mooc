@@ -10,3 +10,27 @@
 .settings/
 out/
 build/
+# Maven build directory
+target/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+.nb-gradle/
+
+# IntelliJ / Eclipse (if ever used)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# TMC / course files
+.tmcproject.yml
+.tmcproject.json
+.checkstyle.xml
