@@ -7,5 +7,23 @@ public class Same {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here. 
+
+        System.out.println("Enter the first string:");
+
+        String firsString = scan.nextLine();
+
+        
+        System.out.println("Enter the second string:");
+
+        String secondString = scan.nextLine();
+
+        
+
+        if (firsString.equals(secondString)) {
+            System.out.println("Same");
+        }else{
+            System.out.println("Different");
+        }
     }
+
 }
