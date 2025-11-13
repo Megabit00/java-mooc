@@ -8,4 +8,11 @@ public class NumberUno {
 
     }
 
+    public static int numberUno(){
+        return 1;
+    }
+
+    public static String word(){
+        return "pati";
+    }
 }
